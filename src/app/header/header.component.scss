@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration-line: none;
+&:hover {text-decoration: underline;}
+}
+.active {
+    color: #666;
+    text-decoration: underline;
+    }
+  header{
+    text-align: center;
+    margin-left: 40%;
+  }

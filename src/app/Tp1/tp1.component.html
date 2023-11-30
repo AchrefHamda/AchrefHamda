@@ -1,0 +1,13 @@
+    <div class="face-snap-card" [ngClass]="{snapped: buttonText ==='Opss, unSnap!'}">
+        <h2>{{faceSnap.title}}</h2>
+        <p>Mis en ligne le {{faceSnap.createdDate}}</p>
+        <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
+        <p>{{faceSnap.decription}}</p>
+        <p>
+            <button (click)="onSnap()">{{buttonText}}</button>
+            {{ faceSnap.snaps }}
+        </p>
+    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">  
